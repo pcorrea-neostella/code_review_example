@@ -24,8 +24,8 @@ class Example:
 
 
 def example_add_function(a: int, b: int) -> None:
-    c = a + b # Calcula la suma de a y b
-    d = 10
+    c: int = a + b # Calcula la suma de a y b
+    d: int = 10
     print(c - d)
 
 def _short_conditional():
